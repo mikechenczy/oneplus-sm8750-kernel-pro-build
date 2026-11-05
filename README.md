@@ -1,3 +1,12 @@
+> ⚠️ **Under active refactoring — do not flash workflow artifacts.**
+> The patch set is being rewritten (see #3 and #4). Builds produced by this repo's workflow are **not guaranteed to boot** until the refactor lands. Please wait for a release/announcement before flashing. **Forkers: please sync after the refactor** rather than building from the current state.
+
+> ⚠️ **正在重构中，请勿刷写 workflow 产物。**
+> 补丁集正在重写（详见 #3、#4）。重构完成前，本仓库 workflow 构建出的内核镜像**不保证能启动**。请等本仓库发布更新后再刷写；**fork 的同学请在重构完成后再同步**，以免带上不兼容的补丁。
+
+
+
+
 # OnePlus Ace 6 Kernel Builder
 
 > **English** | [中文（简体）](README_zh.md)
