@@ -258,7 +258,7 @@ jobs:
         run: |
           set -euo pipefail
           sudo sysctl -w vm.max_map_count=1048576
-          python3 scripts/build.py --workflow
+          python3 scripts/build.py --workflow --clean
 
       - name: Save ccache
         if: ${{ inputs.ccache_update }}
