@@ -179,7 +179,7 @@
     "clang": {
       "version": "AOSP Clang 21.0.0 r563880c",
       "url": "https://github.com/GuLingguang/oneplus-sm8750-kernel-pro-build/releases/download/toolchain-AOSP-Clang-21.0.0-r563880c/clang-r563880c.tar.gz",
-      "sha256": "55c8f687a1b22d65f6a6eb18e9b6da9b0c95694bf275c7ef6a19a434509427b8",
+      "sha256": "ee099045b1323087e0c1d3962d1d8c582fcdef45986976b82886a6177f142763",
       "size": 1161295162,
       "verification": "digest supplied by GitHub Release API; archive not downloaded in M1"
     },

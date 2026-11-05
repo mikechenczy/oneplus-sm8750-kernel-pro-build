@@ -70,7 +70,7 @@ source-preparation，不代表完整 Image 或运行时验收。
 | devicetrees | `ebb25e3526ad84cc5a1090a5a9242f33ff087bf2`；远端解析并真实检出 |
 | ReSukiSU 候选 | `9d0ff6aea9e25fc7dd26f4643175a41f68375e5e`；历史 log 短 SHA + 本地完整 Git commit |
 | SUSFS 官方候选 | `937215cb3a1b1f333d764c366c7a49972fa8e7a0`；官方 GitLab 分支解析及 `v2.3.0` header |
-| Clang | AOSP r563880c；Release API 提供 SHA-256 `55c8f687a1b22d65f6a6eb18e9b6da9b0c95694bf275c7ef6a19a434509427b8` |
+| Clang | AOSP r563880c；Release API 提供 SHA-256 `ee099045b1323087e0c1d3962d1d8c582fcdef45986976b82886a6177f142763` |
 | Actions | checkout/cache/upload 固定历史 run 的实际 SHA；download/github-script 解析并固定 tag SHA |
 | AK3/config/local binary | lock 中逐文件 SHA-256；未生成 AK3 |
 | 功能上游候选 | `manifests/upstream-candidates-2026-09-05.json`，仅登记候选；未冒认旧 patch 的原始出处 |

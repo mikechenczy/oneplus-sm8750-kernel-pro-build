@@ -11,7 +11,7 @@ ARM_ARCHIVE="arm-gnu-toolchain-${ARM_VERSION}-x86_64-aarch64-none-elf.tar.xz"
 ARM_URL="${ACE6_ARM_URL:-https://developer.arm.com/-/media/Files/downloads/gnu/${ARM_VERSION}/binrel/${ARM_ARCHIVE}}"
 
 CLANG_ARCHIVE="clang-r563880c.tar.gz"
-CLANG_SHA256="55c8f687a1b22d65f6a6eb18e9b6da9b0c95694bf275c7ef6a19a434509427b8"
+CLANG_SHA256="ee099045b1323087e0c1d3962d1d8c582fcdef45986976b82886a6177f142763"
 CLANG_ORIGIN="https://github.com/GuLingguang/oneplus-sm8750-kernel-pro-build/releases/download/toolchain-AOSP-Clang-21.0.0-r563880c/${CLANG_ARCHIVE}"
 CLANG_URL="${ACE6_CLANG_URL:-$CLANG_ORIGIN}"
 CLANG_MIRROR="https://v4.gh-proxy.org/${CLANG_ORIGIN}"
