@@ -260,6 +260,14 @@ jobs:
           sudo sysctl -w vm.max_map_count=1048576
           python3 scripts/build.py --workflow --clean
 
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: ${{ steps.common_build.outputs.ak3name }}
+          path: out/*
+          retention-days: 14
+          if-no-files-found: error
+
       - name: Save ccache
         if: ${{ inputs.ccache_update }}
         uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25 # v5
@@ -286,14 +294,6 @@ jobs:
           name: ccache-debug-log
           path: work/_tmp/ccache.log
           if-no-files-found: ignore
-
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
-        with:
-          name: ${{ steps.common_build.outputs.ak3name }}
-          path: out/*
-          retention-days: 14
-          if-no-files-found: error
 
   release:
     needs: build
